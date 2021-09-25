@@ -1,15 +1,16 @@
 {
   "games": {
-    "8dfe20092b1804578a342758b56498e8": ["0444decd82350adb27b62a4702d9decc"]
+    "8dfe20092b1804578a342758b56498e8" {
+      "name": "test game",
+      "devs": "test developers",
+      "list": ["0444decd82350adb27b62a4702d9decc"]
+    }
   },
   "songs": {
     "0444decd82350adb27b62a4702d9decc": {
-      "game": {
-        "name": "test game",
-        "hash": "8dfe20092b1804578a342758b56498e8"
-      },
+      "game": "8dfe20092b1804578a342758b56498e8",
       "name": "test song",
-      "comp": "test composer"
+      "link": "youtube link"
     }
   }
 }
