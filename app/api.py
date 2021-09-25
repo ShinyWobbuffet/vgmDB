@@ -14,6 +14,6 @@ def view(identifier):
   if data.games[identifier]:
     return {"res": data.games[identifier]}
   elif data.songs[identifier]:
-    return send_file(data.songs[identifier])
+    return send_file("../vgm/" + data.songs[identifier])
   else:
     return {"res": -1}
